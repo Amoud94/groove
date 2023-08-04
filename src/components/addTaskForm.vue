@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-10 w-full p-3 md:p-4 pb-10">
+    <div class="flex flex-col gap-10 w-full p-3 md:p-4">
         <h1 class="font-medium py-2 border-b-2 w-full">Add a new Task</h1>
         <div class="flex flex-col gap-4">
             <div class="w-full">
@@ -10,7 +10,7 @@
             <div class="w-full">
                 <label for="base-input" class="block mb-2 text-sm font-medium text-gray-900 ">Description</label>
                 <textarea type="text" v-model="task.description"
-                    class="w-full mt-0 px-2 py-2 text-sm text-gray-600 rounded border border-gray-300 min-h-[15rem]"></textarea>
+                    class="w-full mt-0 px-2 py-2 text-sm text-gray-600 rounded border border-gray-300 min-h-[5rem] md:min-h-[15rem]"></textarea>
             </div>
             <div class="w-full">
                 <label for="base-input" class="block mb-2 text-sm font-medium text-gray-900 ">Due date</label>
